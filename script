@@ -1,0 +1,1 @@
+python3 main.py --mode=dyn --file_path="instance_1.csv" --capacity=10
