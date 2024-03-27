@@ -27,7 +27,7 @@ def main():
 	if mode=="dyn":
 		sack = dynamic_knapsack(weights, values, capacity)
 		
-	#postprocessor(sack, output_format, output_file_name)
+	postprocessor(sack, output_format, output_file_name)
 	
 if __name__ == "__main__":
 	main()
